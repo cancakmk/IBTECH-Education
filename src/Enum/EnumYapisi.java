@@ -1,4 +1,4 @@
-//enum finaldir extend edilemez;
+package Enum;//enum finaldir extend edilemez;
 
 
 enum Day{
@@ -18,7 +18,7 @@ enum Day{
             System.out.println(day);
         }
 
-        System.out.println("toString() of Day.MONDAY: "+Day.MONDAY.toString());
+        System.out.println("toString() of Enum.Day.MONDAY: "+Day.MONDAY.toString());
 
         boolean b1=Day.MONDAY==Day.MONDAY;
         System.out.println("IsEqual:"+b1);

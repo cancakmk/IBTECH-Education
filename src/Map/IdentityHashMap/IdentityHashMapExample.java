@@ -9,6 +9,13 @@ import java.util.Map;
 /*
 *
 *
+* IdentityHashMap allowed same key but elements referance must be different value
+* You can create object and insert elements on identityhasmap
+*
+* key,value,obj referance
+*
+*
+*
 * The IdentityHashMap class is similar to the HashMap class.
 * It implements the AbstractMap class. However, it uses reference
 * equality rather than object equality while comparing the key (or values).

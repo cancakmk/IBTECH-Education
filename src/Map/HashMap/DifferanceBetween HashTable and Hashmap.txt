@@ -1,0 +1,6 @@
+HashMap                                     HashTable
+Not Thread Safe                             Thread Safe
+Fast but data may be inconsistent           slow because of locking
+allows one null key,multiple null values    null key and values are not allowed
+1.2 version                                 Legacy class
+Extends AbstractMap                         Extends Dictionary
